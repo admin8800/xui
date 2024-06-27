@@ -475,9 +475,9 @@ show_menu() {
   ${GREEN}13.${PLAIN} 设置 x-ui 开机自启
   ${GREEN}14.${PLAIN} 取消 x-ui 开机自启
 ————————————————
-  ${GREEN}15.${PLAIN} 一键安装 bbr (最新内核)
-  ${GREEN}16.${PLAIN} 一键申请 SSL 证书 (acme申请)
-  ${GREEN}17.${PLAIN} 一键放开所有网络端口
+  ${GREEN}15.${PLAIN} 安装 BBR
+  ${GREEN}16.${PLAIN} 申请SSL证书(80端口)
+  ${GREEN}17.${PLAIN} 放行所有端口
  "
     show_status
     echo && read -p "请输入选择 [0-17]: " num
