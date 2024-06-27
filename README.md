@@ -18,7 +18,7 @@
 # 安装 & 升级
 
 ```
-bash <(wget -qO- https://raw.githubusercontent.com/sing-web/x-ui/main/install_CN.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/admin8800/x-ui/main/install.sh)
 ```
 
 ## 手动安装&升级
