@@ -191,12 +191,11 @@ install_x-ui() {
     echo ""
     if [[ -n $ipv4 ]]; then
         echo -e "${yellow}面板IPv4访问地址为：${plain} ${green}http://$ipv4:$config_port ${plain}"
-        echo -e "${green}输入 x-ui 显示面板管理菜单{plain}"
     fi
     if [[ -n $ipv6 ]]; then
         echo -e "${yellow}面板IPv6访问地址为：${plain} ${green}http://[$ipv6]:$config_port ${plain}"
     fi
-    echo -e "请自行确保此端口没有被其他程序占用，${yellow}并且确保${plain} ${red} $config_port ${plain} ${yellow}端口已放行${plain}"
+    echo -e "可输入 x-ui 显示面板管理菜单，请自行确保此端口没有被其他程序占用，${yellow}并且确保${plain} ${red} $config_port ${plain} ${yellow}端口已放行${plain}"
 }
 
 echo -e "${green}开始安装${plain}"
