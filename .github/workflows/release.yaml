@@ -8,7 +8,7 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
-    container: docker.io/ubuntu:20.04
+    container: docker.io/ubuntu:latest
     outputs:
       upload_url: ${{ steps.create_release.outputs.upload_url }}
     steps:
@@ -27,7 +27,7 @@ jobs:
     name: build x-ui 386 version
     needs: release
     runs-on: ubuntu-latest
-    container: docker.io/ubuntu:20.04
+    container: docker.io/ubuntu:latest
     steps:
       - uses: actions/checkout@v4.1.1
       - name: Set up Go
@@ -72,7 +72,7 @@ jobs:
     name: build x-ui amd64 version
     needs: release
     runs-on: ubuntu-latest
-    container: docker.io/ubuntu:20.04
+    container: docker.io/ubuntu:latest
     steps:
       - uses: actions/checkout@v4.1.1
       - name: Set up Go
@@ -117,7 +117,7 @@ jobs:
     name: build x-ui arm64 version
     needs: release
     runs-on: ubuntu-latest
-    container: docker.io/ubuntu:20.04
+    container: docker.io/ubuntu:latest
     steps:
       - uses: actions/checkout@v4.1.1
       - name: Set up Go
@@ -162,7 +162,7 @@ jobs:
     name: build x-ui s390x version
     needs: release
     runs-on: ubuntu-latest
-    container: docker.io/ubuntu:20.04
+    container: docker.io/ubuntu:latest
     steps:
       - uses: actions/checkout@v4.1.1
       - name: Set up Go
