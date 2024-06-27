@@ -15,7 +15,7 @@
 - 支持一键SSL证书申请且自动续签
 - 更多高级配置项，详见面板
 
-# 安装 & 升级
+# 一键安装脚本
 
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/admin8800/x-ui/main/install.sh)
