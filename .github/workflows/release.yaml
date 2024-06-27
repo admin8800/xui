@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     container: docker.io/ubuntu:20.04
     steps:
-      - uses: actions/checkout@v3.5.0
+      - uses: actions/checkout@v4.1.7
       - name: Set up Go
         uses: actions/setup-go@v4
         with:
@@ -75,7 +75,7 @@ jobs:
     runs-on: ubuntu-latest
     container: docker.io/ubuntu:20.04
     steps:
-      - uses: actions/checkout@v3.5.0
+      - uses: actions/checkout@v4.1.7
       - name: Set up Go
         uses: actions/setup-go@v4
         with:
