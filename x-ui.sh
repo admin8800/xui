@@ -454,7 +454,7 @@ show_usage() {
 
 show_menu() {
     echo -e "
-  ${GREEN}x-ui 面板管理脚本${PLAIN}
+  ${GREEN}x-ui 自用开源版${PLAIN}
   ${GREEN}0.${PLAIN} 退出脚本
 ————————————————
   ${GREEN}1.${PLAIN} 安装 x-ui
@@ -478,6 +478,7 @@ show_menu() {
   ${GREEN}15.${PLAIN} 安装 BBR
   ${GREEN}16.${PLAIN} 申请SSL证书(80端口)
   ${GREEN}17.${PLAIN} 放行所有端口
+  ${GREEN}x-ui 自用开源版 ${PLAIN}
  "
     show_status
     echo && read -p "请输入选择 [0-17]: " num
