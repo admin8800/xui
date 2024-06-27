@@ -449,7 +449,6 @@ show_usage() {
     echo "x-ui update       - 更新 x-ui 面板"
     echo "x-ui install      - 安装 x-ui 面板"
     echo "x-ui uninstall    - 卸载 x-ui 面板"
-    echo "输入${GREEN}x-ui${PLAIN}显示面板管理菜单"
     echo "------------------------------------------"
 }
 
