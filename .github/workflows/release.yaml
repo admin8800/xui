@@ -22,6 +22,7 @@ jobs:
           release_name: ${{ github.ref }}
           draft: false
           prerelease: false
+          overwrite: true
   linux386build:
     name: build x-ui 386 version
     needs: release
