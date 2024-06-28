@@ -53,28 +53,6 @@
           }
         ]
       }
-    },
-    {
-      "tag": "wireguard-warp",
-      "protocol": "wireguard",
-      "settings": {
-        "secretKey": "wBgj79mhiENspSFQHIULqHP8IKFJJcdq37R51DJvDlk=",
-        "address": [
-          "172.16.0.2/32",
-          "2606:4700:110:845b:e753:d262:c6f:db5b/128"
-        ],
-        "peers": [
-          {
-            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-            "allowedIPs": [
-              "0.0.0.0/0",
-              "::/0"
-            ],
-            "endpoint": "engage.cloudflareclient.com:2408"
-          }
-        ],
-        "reserved": [249,159,96]
-      }
     }
   ],
   "routing": {
@@ -85,21 +63,6 @@
           "api"
         ],
         "outboundTag": "api",
-        "type": "field"
-      },
-      {
-        "domain": [
-          "geosite:cn"
-        ],
-        "outboundTag": "blocked",
-        "type": "field"
-      },
-      {
-        "ip": [
-          "geoip:private",
-          "geoip:cn"
-        ],
-        "outboundTag": "blocked",
         "type": "field"
       },
       {
@@ -114,14 +77,6 @@
         "outboundTag": "socks5-warp",
         "domain": [
           "ip.gs"
-        ]
-      },
-      {
-        "type": "field",
-        "outboundTag": "wireguard-warp",
-        "domain": [
-          "geosite:openai",
-          "domain:sentry.io"
         ]
       },
       {
