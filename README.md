@@ -18,7 +18,7 @@
 # 一键安装脚本
 
 ```
-bash <(wget -qO- https://raw.githubusercontent.com/admin8800/x-ui/main/install.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/admin8800/xui/main/install.sh)
 ```
 
 ## 手动安装&升级
