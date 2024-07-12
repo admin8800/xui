@@ -1,4 +1,4 @@
-name: Release x-ui
+name: Release包
 on:
   workflow_dispatch:
     inputs:
