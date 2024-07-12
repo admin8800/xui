@@ -6,8 +6,7 @@
 
 - 系统状态监控
 - 支持多用户多协议，单端口多用户，网页可视化操作
-- 支持的协议：vmess、vless、trojan、shadowsocks、dokodemo-door、socks、http
-- 支持 vless / trojan / reality协议
+- 支持的协议：vmess、vless、trojan、shadowsocks、dokodemo-door、socks、http、reality协议
 - 支持配置更多传输配置
 - 流量统计，限制流量，限制到期时间
 - 可自定义 xray 配置模板
