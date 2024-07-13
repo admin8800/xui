@@ -21,6 +21,21 @@
 bash <(wget -qO- https://raw.githubusercontent.com/admin8800/xui/main/install.sh)
 ```
 
+
+### Docker
+```
+docker run -itd --network=host \
+    -v $PWD/db/:/etc/x-ui/ \
+    -v $PWD/cert/:/root/cert/ \
+    --name x-ui --restart=unless-stopped \
+    ghcr.io/admin8800/xui:latest
+```
+```
+默认端口：54321
+用户名：admin
+密码：admin
+```
+
 ## 手动安装&升级
 
 1. 首先从项目中下载最新的压缩包，一般选择 `amd64`架构
