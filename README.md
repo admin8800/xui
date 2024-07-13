@@ -21,6 +21,9 @@
 bash <(wget -qO- https://raw.githubusercontent.com/admin8800/xui/main/install.sh)
 ```
 
+---
+---
+---
 
 ### Docker
 ```
