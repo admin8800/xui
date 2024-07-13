@@ -12,6 +12,7 @@ RUN apt-get update && \
 WORKDIR /root
 COPY --from=builder /root/x-ui /root/x-ui
 COPY bin/. /root/bin/.
+RUN find /root/bin -type f -exec chmod +x {} \;
 
 VOLUME [ "/etc/x-ui" ]
 
