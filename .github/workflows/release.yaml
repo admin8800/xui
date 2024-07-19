@@ -1,11 +1,8 @@
 name: Release包
 on:
-  workflow_dispatch:
-    inputs:
-      tags:
-        description: 'Tags to build and push'
-        required: true
-        default: 'latest'
+  push:
+    tags:
+      - 'v*'
 jobs:
   release:
     runs-on: ubuntu-latest
