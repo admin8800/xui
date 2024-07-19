@@ -27,6 +27,5 @@ download_and_extract() {
 download_and_extract "64" "xray-linux-amd64"
 download_and_extract "s390x" "xray-linux-s390x"
 download_and_extract "arm64-v8a" "xray-linux-arm64"
-download_and_extract "arm32-v7a" "xray-linux-arm32"
 
 echo "xray内核更新完成。"
