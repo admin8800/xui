@@ -1,8 +1,6 @@
 #!/bin/bash
 
-SCRIPT_DIR=$(dirname "$0")
-
-cd "$SCRIPT_DIR"
+cd bin
 
 # 下载最新的 geoip.dat 和 geosite.dat 文件
 wget https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat
