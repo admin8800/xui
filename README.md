@@ -25,7 +25,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/admin8800/xui/main/install.sh
 
 ### 国内机器使用此脚本
 ```
-bash <(wget -qO- https://gitlab.com/yishijie/wenjian/raw/main/xui.sh | sed 's/\r$//')
+bash <(wget -qO- https://gitlab.com/yishijie/wenjian/raw/main/xui.sh)
 ```
 ---
 ---
