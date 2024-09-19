@@ -10,6 +10,13 @@ cur_dir=$(pwd)
 # check root
 [[ $EUID -ne 0 ]] && echo -e "${red}错误：${plain} 必须使用root用户运行此脚本！\n" && exit 1
 
+if ! ip addr show lo | grep -q '127.0.0.1'; then
+    echo "127.0.0.1 not found, adding it to loopback interface..."
+    sudo ip addr add 127.0.0.1/8 dev lo
+else
+    echo "127.0.0.1 is already configured."
+fi
+
 # check os
 if [[ -f /etc/redhat-release ]]; then
     release="centos"
