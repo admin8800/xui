@@ -15,7 +15,7 @@
 - 更多高级配置项，详见面板
 - xray配置文件默认配置了`socks`协议路由到一个`ip.gs`的域名，方便大家配置分流，可根据自己需求调整，其他规则都是自由协议
 
-# 一键安装脚本
+# 一键安装脚本：
 
 ```
 bash <(wget -qO- https://raw.githubusercontent.com/admin8800/xui/main/install.sh)
@@ -23,7 +23,7 @@ bash <(wget -qO- https://raw.githubusercontent.com/admin8800/xui/main/install.sh
 
 ---
 
-### 国内机器使用此脚本
+#### 纯ipv6和国内环境：
 ```
 bash <(wget -qO- https://gitlab.com/yishijie/wenjian/raw/main/xui.sh)
 ```
