@@ -23,13 +23,6 @@ bash <(wget -qO- https://raw.githubusercontent.com/admin8800/xui/main/install.sh
 
 ---
 
-#### 纯IPV6和国内环境：
-```
-bash <(wget -qO- https://gitlab.com/yishijie/wenjian/raw/main/xui.sh)
-```
----
----
-
 ### Docker
 ```
 docker run -itd --network=host \
