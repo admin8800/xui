@@ -55,6 +55,7 @@ mv x-ui/ /usr/local/
 systemctl daemon-reload
 systemctl enable x-ui
 systemctl restart x-ui
+x-ui
 ```
 
 
